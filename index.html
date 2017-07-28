@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App index</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, and is needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+        /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+
+    <script src="cordova.js"></script>       
+       
+    <script type="text/javascript"  src="js/jquery-1.8.2.min.js"></script> 
+    <script src="xdk/init-dev.js"></script>
+</head>
+
+<body>
+    
+<!-- ========================================= NAV START ========================================= /-->    
+    <div id="navBar" class="row col-sm-12 col-xs-12">
+        <ul>
+            <li>Teachers</li>
+            <li>Subjects</li>
+            <li>Teachers</li>
+            <li>Subjects</li>
+            <li>Teachers</li>
+            <li>Subjects</li>
+        </ul>
+    </div>
+<!-- ========================================= NAV END ========================================= /-->    
+    
+    
+<!-- ========================================= HEADR START ========================================= /-->    
+    <div id="topDashboard" class="row col-sm-12 col-xs-12">
+        <div class="appName">App Name</div>
+            <img src="img/menu.png" id="menuBtn" style="width:30px;position:absolute;right:10px;top:20px;">
+        
+    </div>
+<!-- ========================================= HEADR END ========================================= /-->     
+    
+    
+    <div class="row col-sm-12 col-xs-12">
+        <div class="insidePage col-sm-12 col-xs-12">
+            
+
+            <!-- Subject list /-->
+            <div id="subjectList" class="col-sm-12 col-xs-12">
+                <h4>Subjects</h4>
+                
+            <!-- Search Bar /-->
+            <div class="serarchBar col-sm-12 col-xs-12">
+                <form>
+                    <input type="search" name="search" placeholder="Search" class="col-sm-12 col-xs-12">
+                    <img src="img/zm.png">
+                </form>
+            </div>
+                
+                <ul>
+                    <li>
+                        Subject Name <span>50 Teachers</span>
+                    </li>
+                    
+                    <li>
+                        Subject Name <span>50 Teachers</span>
+                    </li>
+                    
+                    <li>
+                        Subject Name <span>50 Teachers</span>
+                    </li>
+                    
+                    <li>
+                        Subject Name <span>50 Teachers</span>
+                    </li>
+                    
+                    <li>
+                        Subject Name <span>50 Teachers</span>
+                    </li>
+                    
+                    <li>
+                        Subject Name <span>50 Teachers</span>
+                    </li>
+                </ul>
+                
+                
+            </div>
+            
+            <hr>
+            
+            
+        </div>
+        
+    </div>
+    
+    
+<!-- Javascript /-->    
+<script type="text/javascript"  src="js/app.js"></script>     
+<script type="text/javascript">
+        app.initialize();
+</script>
+</body>
+</html>

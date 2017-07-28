@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*======================= NAV BAR =============================*/
+#navBar{
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 8000;
+    left: -500px;
+    padding-top: 60px;
+    height: 100%;
+    display: table;
+}
+#navBar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#navBar ul li{
+    background-color: ;
+    color: #888888;
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
+
+
+
+/*====================== Top Dashboard =======================*/
+#topDashboard{
+    z-index: 8100;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    background-image:linear-gradient(#3366ff, #8135fd);
+    background-image:-webkit-linear-gradient(#3366ff, #8135fd);
+    background-image:-moz-linear-gradient(#3366ff, #8135fd);
+    background-image:-o-linear-gradient(#3366ff, #8135fd);
+}
+.appName{
+    color: #ffffff;
+    font-family: hedfont;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.insidePage{
+    padding: 0px;
+    height: 100%;
+}
+
+
+/* Search bar */
+.serarchBar{
+    padding: 10px;
+    height: 50px;
+    position: relative;
+}
+.serarchBar input{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 80%;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.serarchBar img{
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+#subjectList{
+    margin: 0px;
+    padding: 0px;
+}
+#subjectList h4{
+    border-bottom: 1px solid #ffffff;
+    color: #3366ff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding:10px;
+    font-family: hedfont;
+    text-align: center;
+    background-color: #dddddd;
+    box-shadow: 0px 1px 3px #aaaaaa;
+    -webkit-box-shadow: 0px 1px 3px #aaaaaa;
+    -moz-box-shadow: 0px 1px 3px #aaaaaa;
+    -o-box-shadow: 0px 1px 3px #aaaaaa;
+}
+#subjectList ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#subjectList ul li{
+    font-family: font1;
+    background: linear-gradient(90deg, #02b5f0,#56d5fe);
+    background: -webkit-linear-gradient(90deg, #02b5f0,#56d5fe);
+    background: -moz-linear-gradient(90deg, #02b5f0,#56d5fe);
+    background: -o-linear-gradient(90deg, #02b5f0,#56d5fe);
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 5px;
+    margin: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 1px 2px #999999;
+    -webkit-box-shadow: 0px 1px 2px #999999;
+    -moz-box-shadow: 0px 1px 2px #999999;
+    -o-box-shadow: 0px 1px 2px #999999;
+    border: 1px solid #fff;
+}
+#subjectList ul li:hover{
+    background: linear-gradient(90deg, #02b5f0, #3092fe);
+    background: -webkit-linear-gradient(90deg, #02b5f0, #3092fe);
+    background: -moz-linear-gradient(90deg, #02b5f0, #3092fe);
+    background: -o-linear-gradient(90deg, #02b5f0, #3092fe);
+}
+
+#subjectList ul li span{
+    float: right;
+    color: #eee;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*=================== FONTS ====================*/
+@font-face{
+    font-family:arialBold;
+    src: url(font/ProximaB.ttf);
+    -webkit-font-family:arialBold;
+    -webkit-src: url(font/ProximaB.ttf);
+}
+@font-face{
+    font-family:arialB;
+    src: url(font/ariblk3.ttf);
+    -webkit-font-family:arialB;
+    -webkit-src: url(font/ariblk3.ttf);
+}
+@font-face{
+    font-family:font1;
+    src: url(font/Proxima.ttf);
+    -webkit-font-family:font1;
+    -webkit-src: url(font/Proxima.ttf);
+}
+@font-face{
+    font-family:hedfont;
+    src: url(font/ProximaB.ttf);
+    -webkit-font-family:hedfont;
+    -webkit-src: url(font/ProximaB.ttf);
+}
+@font-face{
+    font-family:schadow;
+    src: url(font/schadow.ttf);
+    -webkit-font-family:schadow;
+    -webkit-src: url(font/schadow.ttf);
+}
